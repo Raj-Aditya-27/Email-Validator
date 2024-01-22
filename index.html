@@ -10,52 +10,41 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul id="navLeft">
-                <img src="image/email.svg" alt="email" id="logo">
-                <li>iValidate</li>
-            </ul>
-            <ul id="navRight">
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <div id="input">
-                <h2>Enter your email to validate</h2>
-                <input type="email" name="email" id="email" placeholder="virat18@gmail.com">
-                <button type="submit">Submit</button>
-            </div>
+    <div class="bucket">
+        <header>
+            <nav>
+                <ul id="navLeft">
+                    <img src="image/email.svg" alt="email" id="logo">
+                    <li>iValidate</li>
+                </ul>
+                <ul id="navRight">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div id="input">
+                    <h3>Enter your email to validate</h3>
+                    <input type="email" name="email" id="email" placeholder="virat18@gmail.com">
+                    <button type="submit" id="submitBtn">Submit</button>
+                </div>
 
-            <div class="result">
-                <h2>Your Results</h2>
-                <div id="resultContent">
-                    <div>"tag": "",</div>
-                    <div>"free": false,</div>
-                    <div>"role": false,</div>
-                    <div>"user": "akshaykumar",</div>
-                    <div>"email": "akshaykumar@codewithharry.com",</div>
-                    <div>"score": 0.64,</div>
-                    <div>"state": "undeliverable",</div>
-                    <div>"domain": "codewithharry.com",</div>
-                    <div>"reason": "invalid_mailbox",</div>
-                    <div>"mx_found": true,</div>
-                    <div>"catch_all": null,</div>
-                    <div>"disposable": false,</div>
-                    <div>"smtp_check": false,</div>
-                    <div>"did_you_mean": "",</div>
-                    <div>"format_valid": true</div>
+                <div class="result">
+                    <h2>Your Results</h2>
+                    <div id="resultContent">
+                        <div> Your results will show here.</div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <div>Copyright | iValidate.com | All Rights reserved</div>
-    </footer>
+        </main>
+        <footer>
+            <div>Copyright | iValidate.com | All Rights reserved</div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
